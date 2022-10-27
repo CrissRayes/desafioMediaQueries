@@ -1,3 +1,8 @@
+:root {
+  --primary-color: #1976d2;
+  --primary-color-dark: #004ba0;
+  --grey-color: #e1e2e1;
+}
 * {
   margin: 0;
   padding: 0;
@@ -30,7 +35,7 @@ footer {
     display: grid;
     grid-template-rows: 1fr 10fr 1fr;
     grid-template-columns: 1fr 4fr;
-    background-color: blue;
+    background-color: var(--primary-color-dark);
   }
   menu {
     background-color: orange;
