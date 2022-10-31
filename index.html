@@ -5,14 +5,34 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/9df92a252f.js" crossorigin="anonymous"></script>
+  <!-- my styles -->
   <link rel="stylesheet" href="css/style.css">
   <title>Desafío Media Queries</title>
 </head>
 
 <body>
   <div class="container">
-    <menu>menu</menu>
-    <header>header</header>
+    <menu>
+      <ul>
+        <li>
+          <i class="fa-solid fa-car"></i> Electric Cars
+        </li>
+      </ul>
+      <i class="fa-solid fa-bars fa-2x"></i>
+    </menu>
+    <header>
+      <p>Ordenar Por:</p>
+      <form action="">
+        <select name="filtro" id="filtro">
+          <option value="" selected></option>
+          <option value="menor">Precio Menor a Mayor</option>
+          <option value="mayor">Precio Mayor a Menor</option>
+        </select>
+      </form>
+
+    </header>
     <main>main</main>
     <footer>footer</footer>
   </div>
