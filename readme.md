@@ -1,7 +1,6 @@
 #### Desafío Media Queries
 
-El código considera las 3 versiones:
+El código considera las versiones:
 
-- Mobile first
-- Tablet (>= 576px). Esta es opcional pero de todas formas fue desarrollada.
-- Desktop (desde 992px)
+- Mobile first.
+- Desktop (>= 576px).
